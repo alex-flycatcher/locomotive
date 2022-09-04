@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="drawing.svg"
+   width="18.63282mm"
+   height="18.446421mm"
+   viewBox="0 0 18.63282 18.44642"
+   version="1.1"
+   id="svg8">
+  <sodipodi:namedview
+     inkscape:current-layer="text835"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="14"
+     inkscape:cy="34.859374"
+     inkscape:cx="35.207897"
+     inkscape:zoom="12.078218"
+     showgrid="false"
+     id="namedview8"
+     inkscape:window-height="1259"
+     inkscape:window-width="1988"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-59.526743,-69.37634)">
+    <g
+       aria-label="A"
+       id="text835"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;fill:#2563eb;fill-opacity:1;stroke-width:0.264583">
+      <path
+         d="m 77.964089,87.690468 h -3.993555 l -1.5875,-4.129981 h -7.267773 l -1.500684,4.129981 H 59.720242 L 66.80198,69.508632 h 3.881933 z m -6.759277,-7.193359 -2.505274,-6.746875 -2.455664,6.746875 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:none;fill-opacity:1;stroke:#2563eb;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path837" />
+    </g>
+  </g>
+</svg>
