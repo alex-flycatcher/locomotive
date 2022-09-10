@@ -81,21 +81,24 @@ const updateStarShip = ({
         scale: 3,
       }
     )
-
-    .to(aboutEl.ss, {
+    .to(animateElement, {
       scrollTrigger: {
         id: "triggerSs3",
-        trigger: aboutEl.container,
+        trigger: heroEl.container,
         start: "left left",
-        end: "max",
+        end: "+=100%",
         horizontal: true,
         scroller: ".App",
         scrub: true,
+        // snap: 1,
         // markers: true,
       },
-      opacity: 1,
+      ease: "none",
+      x: ssEndingXy.x,
+      y: ssEndingXy.y,
+      // opacity: 1,
     })
-    .to(animateElement, {
+    .to(aboutEl.ss, {
       scrollTrigger: {
         id: "triggerSs4",
         trigger: heroEl.container,
@@ -104,12 +107,12 @@ const updateStarShip = ({
         horizontal: true,
         scroller: ".App",
         scrub: true,
-        // snap: 1,
         markers: true,
+        toggleClass : {
+          targets: aboutEl.ss, 
+          className: "opacity-0"
+        }
       },
-      ease: "none",
-      x: ssEndingXy.x,
-      y: ssEndingXy.y,
       // opacity: 1,
     })
     .to(animateElement, {
@@ -117,12 +120,17 @@ const updateStarShip = ({
         id: "triggerSs5",
         trigger: aboutEl.container,
         start: "left left",
-        end: "max",
+        end: "right max",
         horizontal: true,
         scroller: ".App",
         scrub: true,
+        // markers: true,
+        toggleClass : {
+          targets: animateElement, 
+          className: "opacity-0"
+        }
       },
-      opacity: 0,
+      // opacity: 0,
     })
     .fromTo(
       tailEl,
@@ -162,6 +170,21 @@ const updateStarShip = ({
         ease: "power4.out",
       }
     )
+
+    // ScrollTrigger.create({
+    //   id: "triggerSs5",
+    //   trigger: aboutEl.container,
+    //   start: "left left",
+    //   end: "right max",
+    //   horizontal: true,
+    //   scroller: ".App",
+    //   scrub: true,
+    //   markers: true,
+    //   toggleClass : {
+    //     targets: animateElement, 
+    //     className: "opacity-0"
+    //   }
+    // })
 
 
   return t1;

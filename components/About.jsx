@@ -32,7 +32,7 @@ const About = () => {
           <div className="py-2 ">
             As a fullstack developer, I am the rocket engineer you just need to
             get your{" "}
-            <span id="aboutSs" ref={ssRef} className="opacity-0">
+            <span id="aboutSs" ref={ssRef} className="">
             STARSHIP🚀
             </span>{" "}
             website to sail to the INTERNET GALAXY.{" "}
