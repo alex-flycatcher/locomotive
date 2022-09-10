@@ -10,6 +10,7 @@ import SidebarLeft from "../components/SidebarLeft";
 import Sidebar from "../components/SidebarLeft";
 import SidebarRight from "../components/SidebarRight";
 import Skills from "../components/Skills";
+import Starship from "../components/Starship";
 // import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 // import { useEffect, useRef, useState } from "react";
 
@@ -22,14 +23,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex whitespace-normal">
-        <Main />
-        <About />
+        <Starship />
         <Skills />
         {/* <Projects />
         <Contact /> */}
         {/* <SidebarLeft /> */}
         {/* <SidebarRight /> */}
-        {/* <Background /> */}
+        <Background />
       </div>
     </>
   );

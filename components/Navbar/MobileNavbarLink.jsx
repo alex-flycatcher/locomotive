@@ -1,8 +1,7 @@
 import React from 'react'
 // import {Link as LinkScroll} from "react-scroll";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
-// import gsap from "gsap";
-// import ScrollTrigger from "gsap/ScrollTrigger";
+
 
 const MobileNavbarLink = ({to,label,offset=0}) => {
   const { scroll } = useLocomotiveScroll();

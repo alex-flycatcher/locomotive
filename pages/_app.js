@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import "../styles/locomotive-scroll.css";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useEffect, useRef, useState } from "react";
+import ScrollTriggerProxy from "../components/ScrollTriggerProxy";
 
 function MyApp({ Component, pageProps }) {
   const containerRef = useRef(null);
@@ -24,6 +25,8 @@ function MyApp({ Component, pageProps }) {
             smooth: true,
             direction: "horizontal",
           },
+          getDirection : true,
+          getSpeed: true
         }}
         watch={
           [
@@ -34,7 +37,8 @@ function MyApp({ Component, pageProps }) {
         }
         containerRef={containerRef}
       >
-        <main className='App fixed' data-scroll-container ref={containerRef}>
+        <ScrollTriggerProxy />
+        <main className='App fixed whitespace-normal' data-scroll-container ref={containerRef}>
           <Component {...pageProps} />
           {/* <Navbar /> */}
         </main>
