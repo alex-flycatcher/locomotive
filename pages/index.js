@@ -25,11 +25,11 @@ export default function Home() {
       <div className="flex whitespace-normal">
         <Starship />
         <Skills />
-        {/* <Projects />
-        <Contact /> */}
+        <Projects />
+        <Contact />
         {/* <SidebarLeft /> */}
         {/* <SidebarRight /> */}
-        <Background />
+        
       </div>
     </>
   );

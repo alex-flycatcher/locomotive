@@ -107,7 +107,7 @@ const updateStarShip = ({
         horizontal: true,
         scroller: ".App",
         scrub: true,
-        markers: true,
+        // markers: true,
         toggleClass : {
           targets: aboutEl.ss, 
           className: "opacity-0"
@@ -170,21 +170,6 @@ const updateStarShip = ({
         ease: "power4.out",
       }
     )
-
-    // ScrollTrigger.create({
-    //   id: "triggerSs5",
-    //   trigger: aboutEl.container,
-    //   start: "left left",
-    //   end: "right max",
-    //   horizontal: true,
-    //   scroller: ".App",
-    //   scrub: true,
-    //   markers: true,
-    //   toggleClass : {
-    //     targets: animateElement, 
-    //     className: "opacity-0"
-    //   }
-    // })
 
 
   return t1;

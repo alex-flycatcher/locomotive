@@ -62,13 +62,11 @@ const ScrollTriggerProxy = () => {
     // ScrollTrigger.addEventListener("scrollEnd",scrollSnap);
     const scrollSnap = (event) => {
       // console.log(event);
-      console.log(event.deltaY);
       if (event.deltaY > 0) {
         let position =
           (Math.round(scroll.scroll.instance.scroll.x / window.innerWidth)+1) *
           window.innerWidth;
-        console.log(scroll.scroll.instance.scroll.x);
-        console.log(position);
+
         scroll.scrollTo(position);
       }
       if (event.deltaY < 0) {
@@ -76,8 +74,7 @@ const ScrollTriggerProxy = () => {
           (Math.round(scroll.scroll.instance.scroll.x / window.innerWidth)-1) *
           window.innerWidth;
         if (position< 0) position =0;
-        console.log(scroll.scroll.instance.scroll.x);
-        console.log(position);
+
         scroll.scrollTo(position);
       }
     };

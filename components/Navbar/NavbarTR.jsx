@@ -10,14 +10,14 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Circle from "../../public/assets/circle.svg";
 // import MobileNav from "./MobileNav";
 
-const Navbar = () => {
+const NavbarTR = () => {
   useEffect(() => {}, []);
 
   const triggerActiveClass = () => {};
   return (
-    <div className="z-50 fixed w-screen h-screen ">
+    <div className="z-50 absolute top-0 right-0">
       <div className="absolute top-0 left-0"></div>
-      <div className="absolute top-0 right-0">
+      <div className="">
         <div className="mt-5 mr-5">
 
           <Circle className="w-40 max-w-[30vw]" />
@@ -28,4 +28,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarTR;

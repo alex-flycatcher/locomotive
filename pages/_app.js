@@ -4,6 +4,9 @@ import "../styles/locomotive-scroll.css";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useEffect, useRef, useState } from "react";
 import ScrollTriggerProxy from "../components/ScrollTriggerProxy";
+import NavbarTR from "../components/Navbar/NavbarTR";
+import Background from "../components/Background";
+import Logo from "../components/Logo";
 
 function MyApp({ Component, pageProps }) {
   const containerRef = useRef(null);
@@ -12,6 +15,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Logo></Logo>
       <LocomotiveScrollProvider
         options={{
           smooth: true,
@@ -25,8 +29,8 @@ function MyApp({ Component, pageProps }) {
             smooth: true,
             direction: "horizontal",
           },
-          getDirection : true,
-          getSpeed: true
+          getDirection: true,
+          getSpeed: true,
         }}
         watch={
           [
@@ -38,11 +42,16 @@ function MyApp({ Component, pageProps }) {
         containerRef={containerRef}
       >
         <ScrollTriggerProxy />
-        <main className='App fixed whitespace-normal' data-scroll-container ref={containerRef}>
+        <main
+          className="App fixed whitespace-normal"
+          data-scroll-container
+          ref={containerRef}
+        >
           <Component {...pageProps} />
-          {/* <Navbar /> */}
         </main>
       </LocomotiveScrollProvider>
+      <NavbarTR />
+      <Background />
     </>
   );
 }

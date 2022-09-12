@@ -22,7 +22,6 @@ function Main() {
 
 
     let t1;
-    console.log
     const updateScrollMain = () => {
       ScrollTrigger.getById("triggerMain1")?.kill();
       t1?.kill();
