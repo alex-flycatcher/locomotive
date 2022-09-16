@@ -1,12 +1,12 @@
-import Navbar from "../components/Navbar/Navbar";
 import "../styles/globals.css";
 import "../styles/locomotive-scroll.css";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useEffect, useRef, useState } from "react";
 import ScrollTriggerProxy from "../components/ScrollTriggerProxy";
 import NavbarTR from "../components/Navbar/NavbarTR";
+import NavbarBR from "../components/Navbar/NavbarBR";
 import Background from "../components/Background";
-import Logo from "../components/Logo";
+import Logo from "../components/Navbar/Logo";
 
 function MyApp({ Component, pageProps }) {
   const containerRef = useRef(null);
@@ -51,6 +51,7 @@ function MyApp({ Component, pageProps }) {
         </main>
       </LocomotiveScrollProvider>
       <NavbarTR />
+      <NavbarBR />
       <Background />
     </>
   );

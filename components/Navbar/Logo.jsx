@@ -19,8 +19,8 @@ const Logo = () => {
         keyframes: {
           opacity: [0, 1, 0],
           display: ["none", "inline", "none"],
+          easeEach: "expo.inOut",
         },
-        easeEach: "expo.inOut",
         ease: "none",
       });
     });
@@ -31,8 +31,8 @@ const Logo = () => {
       keyframes: {
         opacity: [0, 1, 0],
         display: ["none", "inline", "none"],
+        easeEach: "expo.inOut",
       },
-      easeEach: "expo.inOut",
       ease: "none",
     });
 
@@ -42,7 +42,7 @@ const Logo = () => {
   });
   return (
     <div
-      className="text-secondary text-6xl font-bold absolute left-4 z-10"
+      className="text-secondary text-6xl font-bold absolute left-4 z-10 p-3 "
       ref={logoRef}
     >
       {/* initial="hidden" animate="visible" */}

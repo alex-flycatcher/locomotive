@@ -4,7 +4,6 @@ import About from "../components/About";
 import Background from "../components/Background";
 import Contact from "../components/Contact";
 import Main from "../components/Main";
-import Navbar from "../components/Navbar/Navbar";
 import Projects from "../components/Projects";
 import SidebarLeft from "../components/SidebarLeft";
 import Sidebar from "../components/SidebarLeft";
