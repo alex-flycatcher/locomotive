@@ -12,7 +12,8 @@ const getPosition = () => {
   let heroContainerRect = heroEl.container.getBoundingClientRect();
   let heroSsRect = heroEl.ss.getBoundingClientRect();
   ssStartingXy.x = Math.abs(heroSsRect.left - heroContainerRect.left);
-  ssStartingXy.y = Math.abs(heroEl.ss.offsetTop - heroEl.container.offsetTop);
+  // ssStartingXy.y = Math.abs(heroEl.ss.offsetTop - heroEl.container.offsetTop);
+  ssStartingXy.y = Math.abs(heroSsRect.top - heroContainerRect.top);
 
   //Ending position calculated
   let aboutContainerRect = aboutEl.container.getBoundingClientRect();
@@ -21,7 +22,7 @@ const getPosition = () => {
   ssEndingXy.x = Math.abs(aboutSsRect.left - heroSsRect.left);
   ssEndingXy.y = -(
     window.innerHeight -
-    Math.abs(aboutEl.ss.offsetTop - aboutEl.container.offsetTop) +
+    Math.abs(aboutSsRect.top - aboutContainerRect.top) +
     ssStartingXy.y
   );
 

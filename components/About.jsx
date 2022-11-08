@@ -17,18 +17,15 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" w-screen h-screen p-4  py-20 "
+      className=" w-screen h-screen p-4  py-20 flex justify-center items-center"
       ref={containerRef}
       data-scroll
       data-scroll-speed="-4"
       data-scroll-direction="vertical"
     >
-      <div className=" max-w-[1240px] flex flex-col ">
-        <div className="">
-          <p className="uppercase text-xl tracking-widest text-primary-light">
-            About
-          </p>
-          <h2 className="py-4">Who am I?</h2>
+      <div className=" max-w-[1240px]  flex-col ">
+        <div className=" backdrop-blur drop-shadow shadow-gray-600 shadow-xl rounded-xl p-4">
+          <h2 className="py-4">About me</h2>
           <div className="py-2 ">
             As a fullstack developer, I am the rocket engineer you just need to
             get your{" "}
@@ -42,14 +39,6 @@ const About = () => {
             Zealand. Have been doing development base on multiple platforms,
             such as Magento, Lavarel, Odoo, Drupal and Wordpress.
           </p>
-          <Link href="/#projects">
-            <p className="py-2  underline cursor-pointer">
-              Check out some of my latest projects.
-            </p>
-          </Link>
-        </div>
-        <div className=" w-full text-gray-600 shadow-xl shadow-gray-400 rounded-xl items-center p-4 hover:scale-105 ease-in duration-300 max-w-fit">
-          <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>
     </div>

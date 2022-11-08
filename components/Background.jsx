@@ -19,7 +19,7 @@ const Background = () => {
 
     let stars = [];
 
-    let pointerX, pointerY, tScrollY;
+    let pointerX, pointerY;
 
     let velocity = { x: 0, y: 0, tx: 0, ty: 0, z: 0.0005 };
 
@@ -31,8 +31,8 @@ const Background = () => {
 
     window.onresize = resize;
     window.onmousemove = onMouseMove;
-    window.ontouchmove = onTouchMove;
-    window.ontouchend = onMouseLeave;
+    // window.ontouchmove = onTouchMove;
+    // window.ontouchend = onMouseLeave;
     document.onmouseleave = onMouseLeave;
     window.onscroll = onScroll;
     
@@ -167,11 +167,8 @@ const Background = () => {
     }
 
     function movePointer(x, y) {
-
       if (typeof pointerY === "number") {
-
-        // let oy = y - pointerY;
-        let oy = y - pointerY + (window.pageYOffset - tScrollY)/3;
+        let oy = y - pointerY;
         velocity.ty = velocity.ty + (oy / 8) * scale * (touchInput ? 1 : -1);
       }
       if (typeof pointerX === "number" ) {
@@ -181,8 +178,6 @@ const Background = () => {
       
       pointerX = x;
       pointerY = y;
-      tScrollY = window.pageYOffset;
-      
       
     }
 
@@ -205,8 +200,7 @@ const Background = () => {
     }
 
     function onScroll() {
-      pointerX = null;
-      movePointer(null, pointerY);
+      // movePointer(null, window.scrollY/100);
     }
   }
   useEffect(() => {
@@ -214,7 +208,7 @@ const Background = () => {
   }, []);
 
   return (
-    <canvas data-scroll-sticky className="fixed top-0 -z-10" ref={canvasRef}></canvas>
+    <canvas className="fixed top-0 -z-10" ref={canvasRef}></canvas>
   );
 };
 

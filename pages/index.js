@@ -24,7 +24,7 @@ export default function Home() {
       <div className="flex whitespace-normal">
         <Starship />
         <Skills />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
         {/* <SidebarLeft /> */}
         {/* <SidebarRight /> */}

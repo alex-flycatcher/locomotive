@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 304.11319 800.00002"
+   version="1.1"
+   id="svg1993">
+  <defs
+     id="defs1987">
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(997.461,0,0,-997.461,27411.1,1711.3)"
+       spreadMethod="pad"
+       id="linearGradient3276-1">
+      <stop
+         style="stop-opacity:1;stop-color:#00a2c1"
+         offset="0"
+         id="stop1678" />
+      <stop
+         style="stop-opacity:1;stop-color:#005693"
+         offset="1"
+         id="stop1680" />
+    </linearGradient>
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient1084">
+      <stop
+         id="stop1082"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(997.461,0,0,-997.461,27411.1,1711.3)"
+       spreadMethod="pad"
+       id="linearGradient3276">
+      <stop
+         style="stop-opacity:1;stop-color:#00a2c1"
+         offset="0"
+         id="stop903" />
+      <stop
+         style="stop-opacity:1;stop-color:#005693"
+         offset="1"
+         id="stop905" />
+    </linearGradient>
+    <clipPath
+       id="clipPath3258"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3256"
+         d="m 28290.6,759.398 v 0 c -263.9,0 -502.8,355.502 -675.8,930.302 -172.6,573.6 -279.5,1365.5 -279.9,2240.4 0,1.9 0,3.7 0,5.5 0,877.1 106.9,1671.2 279.9,2245.9 173,574.8 411.9,930.3 675.8,930.3 263.9,0 502.9,-355.5 675.8,-930.3 173,-574.7 280,-1368.8 280,-2245.9 v -5.5 c -0.5,-874.9 -107.4,-1666.8 -280,-2240.4 -172.9,-574.8 -411.9,-930.302 -675.8,-930.302 M 28137.1,2399.7 c 223.2,-73.8 395.3,-252.6 464.6,-472.5 V 2359 l -464.6,375.2 v -334.5 0 m 0,398.8 464.6,-375.2 V 2859 l -464.6,375.2 v -435.7 m 0,500 464.6,-375.2 V 3359 l -464.6,375.2 v -435.7 m 0,500 464.6,-375.2 V 3859 l -464.6,375.2 v -435.7 m 0,500 464.6,-375.2 V 4359 l -464.6,375.2 v -435.7 m 0,500 464.6,-375.2 V 4859 l -464.6,375.2 v -435.7 m 0,500 464.6,-375.2 V 5359 l -464.6,375.2 v -435.7 m 0,500 464.6,-375.2 V 5859 l -464.6,375.2 v -435.7 m 0,500 464.6,-375.2 v 397.3 l -464.6,390.9 v -413" />
+    </clipPath>
+    <clipPath
+       id="clipPath3270"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3268"
+         d="m 27909.9,2210 c -275.5,0 -498.8,-223.3 -498.8,-498.7 0,-275.5 223.3,-498.8 498.8,-498.8 275.4,0 498.7,223.3 498.7,498.8 0,275.4 -223.3,498.7 -498.7,498.7 z" />
+    </clipPath>
+    <linearGradient
+       id="linearGradient3276-1-2"
+       spreadMethod="pad"
+       gradientTransform="matrix(997.461,0,0,-997.461,27411.1,1711.3)"
+       gradientUnits="userSpaceOnUse"
+       y2="0"
+       x2="1"
+       y1="0"
+       x1="0">
+      <stop
+         id="stop3272"
+         offset="0"
+         style="stop-opacity:1;stop-color:#00a2c1" />
+      <stop
+         id="stop3274"
+         offset="1"
+         style="stop-opacity:1;stop-color:#005693" />
+    </linearGradient>
+    <clipPath
+       id="clipPath3286"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3284"
+         d="m 28601.7,3923.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7" />
+    </clipPath>
+    <clipPath
+       id="clipPath3298"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3296"
+         d="m 28601.7,3423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7" />
+    </clipPath>
+    <clipPath
+       id="clipPath3310"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3308"
+         d="m 28601.7,2423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7" />
+    </clipPath>
+    <clipPath
+       id="clipPath3322"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3320"
+         d="m 28601.7,2923.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7" />
+    </clipPath>
+    <clipPath
+       id="clipPath3334"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3332"
+         d="m 28601.7,4923.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7" />
+    </clipPath>
+    <clipPath
+       id="clipPath3346"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3344"
+         d="m 28601.7,5923.3 -464.6,375.2 v 413 l 464.6,-390.9 v -397.3" />
+    </clipPath>
+    <clipPath
+       id="clipPath3358"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3356"
+         d="m 28601.7,1927.2 c -69.3,219.9 -241.4,398.7 -464.6,472.5 v 334.5 l 464.6,-375.2 v -431.8" />
+    </clipPath>
+    <clipPath
+       id="clipPath3370"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3368"
+         d="m 28601.7,4423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7" />
+    </clipPath>
+    <clipPath
+       id="clipPath3382"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3380"
+         d="m 28601.7,5423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3286-4">
+      <path
+         d="m 28601.7,3923.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7"
+         id="path3284-2" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3298-5">
+      <path
+         d="m 28601.7,3423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7"
+         id="path3296-3" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3310-9">
+      <path
+         d="m 28601.7,2423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7"
+         id="path3308-0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3322-5">
+      <path
+         d="m 28601.7,2923.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7"
+         id="path3320-3" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3334-7">
+      <path
+         d="m 28601.7,4923.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7"
+         id="path3332-0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3346-3">
+      <path
+         d="m 28601.7,5923.3 -464.6,375.2 v 413 l 464.6,-390.9 v -397.3"
+         id="path3344-1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3358-8">
+      <path
+         d="m 28601.7,1927.2 c -69.3,219.9 -241.4,398.7 -464.6,472.5 v 334.5 l 464.6,-375.2 v -431.8"
+         id="path3356-0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3370-6">
+      <path
+         d="m 28601.7,4423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7"
+         id="path3368-9" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3382-5">
+      <path
+         d="m 28601.7,5423.3 -464.6,375.2 v 435.7 l 464.6,-375.2 v -435.7"
+         id="path3380-2" />
+    </clipPath>
+    <clipPath
+       id="clipPath3346-3-8"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3344-1-5"
+         d="m 28601.7,5923.3 -464.6,375.2 v 413 l 464.6,-390.9 v -397.3" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath912">
+      <g
+         id="g926"
+         style="stroke-width:0.99734"
+         transform="matrix(1.0053417,0,0,1,-0.81600139,-4.3690918e-5)">
+        <path
+           d="m 152.7974,489.78733 84.84059,72.33835 v 76.05099 c -18.6606,-27.28772 -52.25148,-69.40953 -84.84059,-72.3384 z"
+           style="display:inline;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:42.1226;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path914" />
+        <path
+           d="m 152.7974,150.9737 84.84059,71.19754 v 74.85153 l -84.84059,-71.1975 z"
+           style="display:inline;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:159.203;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path916" />
+        <path
+           id="path918"
+           style="display:inline;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:159.203;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 152.7974,236.15617 84.84059,71.19751 v 74.85144 L 152.7974,311.00768 Z" />
+        <path
+           id="path920"
+           style="display:inline;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:159.203;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 152.7974,321.33858 84.84059,71.19749 v 74.85155 L 152.7974,396.19007 Z" />
+        <path
+           id="path922"
+           style="display:inline;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:159.203;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 152.7974,406.52098 84.84059,71.19755 v 74.85159 L 152.7974,481.37263 Z" />
+        <path
+           id="path924"
+           style="display:inline;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:159.203;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 152.7974,65.996023 84.84059,71.197537 v 74.85153 l -84.84059,-71.1975 z" />
+      </g>
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata1990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g902"
+     transform="matrix(0.99468666,0,0,1,0.8116657,4.3690918e-5)"
+     style="stroke-width:1.00267"
+     clip-path="url(#clipPath912)">
+    <rect
+       y="65.995979"
+       x="152.79739"
+       height="572.18066"
+       width="85.294197"
+       id="rect899"
+       style="fill:#0ee7df;stroke-width:160.054" />
+  </g>
+</svg>

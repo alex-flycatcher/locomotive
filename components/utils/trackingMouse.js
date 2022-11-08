@@ -12,7 +12,7 @@ import gsap from "gsap";
  * rxMin: -30
  * rxMax: 30
  * 
- * p: 15
+ * p: 15 //Range
  * yMin: -15
  * yMax: 15
  * xMin: -15
@@ -21,6 +21,8 @@ import gsap from "gsap";
  */
 
 const trackingMouse = (element, options = {}) => {
+
+
   const rxSetter = gsap.quickSetter(element, "rotateX", "deg"); //vertical rotate
   const rySetter = gsap.quickSetter(element, "rotateY", "deg"); //horizontal rotate
   const xSetter = gsap.quickSetter(element, "x", "px");

@@ -4,6 +4,9 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect } from "react";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 
+let scrollInstance ;
+
+
 const ScrollTriggerProxy = () => {
   // first let's get instance of locomotive scroll
 
@@ -20,6 +23,7 @@ const ScrollTriggerProxy = () => {
     const element = scroll.el;
     // on scroll of locomotive, update scrolltrigger
     scroll.on("scroll", ScrollTrigger.update);
+
 
     //  let's use scroller proxy
     ScrollTrigger.scrollerProxy(element, {
@@ -79,6 +83,8 @@ const ScrollTriggerProxy = () => {
       }
     };
     window.addEventListener("wheel", scrollSnap);
+    
+    scrollInstance = scroll;
     return () => {
       // ScrollTrigger.addEventListener("refresh", () => scroll?.update());
       // ScrollTrigger.refresh();
@@ -96,3 +102,4 @@ const ScrollTriggerProxy = () => {
 };
 
 export default ScrollTriggerProxy;
+export {scrollInstance};

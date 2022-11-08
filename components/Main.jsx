@@ -64,10 +64,11 @@ function Main() {
     <div
       id="hero"
       // className=" w-screen h-screen flex justify-center items-center"
-      className=" w-screen h-screen flex justify-center items-center z-10"
+      className=" w-screen h-screen flex justify-center items-center z-10 select-none "
       ref={heroRef}
     >
-      <div className="max-w-[1240px] pl-4 pr-8 lg:px-16" >
+      <div className="max-w-[1240px] p-8 lg:p-16 relative max-w-[90vw]" >
+        <div className="hero-box-shadow rounded   backdrop-blur absolute w-full h-full top-0 left-0 -z-10 "></div>
         <h1 className="  text-gray-200 flex ">
           Hi, I&#39;m&nbsp;
           {/* hover:drop-shadow-[0_10px_10px_#FFFFFF] */}
@@ -127,6 +128,7 @@ function Main() {
           &nbsp;website you just need.
         </div>
         <div className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"></div>
+
       </div>
     </div>
   );

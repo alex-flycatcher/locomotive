@@ -1,0 +1,16 @@
+<svg id="fog" width="4e3" height="1600" version="1.1" viewBox="0 0 4e3 1600" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter6324" x="-.26937" y="-.60714" width="1.5157" height="2.2454" color-interpolation-filters="sRGB">
+   <feGaussianBlur in="SourceGraphic" result="result8" stdDeviation="144.49888"/>
+   <feTurbulence baseFrequency="0.01" result="result7" seed="1" type="fractalNoise"/>
+   <feComposite in="result7" in2="result8" result="result6"/>
+   <feColorMatrix result="result9" type="luminanceToAlpha"/>
+   <feDisplacementMap in="result7" in2="result9" result="result4" scale="49.838709677419359"/>
+   <feComposite in="result8" in2="result4" operator="in" result="result2"/>
+   <feComposite in="result2" in2="result9" operator="in" result="fbSourceGraphic"/>
+   <feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="-1.2703583061889248" k2="3.1921824104234524" operator="arithmetic" result="result91"/>
+   <feBlend in="fbSourceGraphic" in2="result91" mode="multiply"/>
+  </filter>
+ </defs>
+ <path transform="matrix(1.7872 0 0 1.7099 -556.67 -1076.8)" d="m1002.7 725.49 896.82-197.72 709.14 22.023-63.708 288.96-497.92 136.27-702.38 258.77z" fill="none" filter="url(#filter6324)" stroke="#0ff" stroke-dasharray="171.611, 171.611" stroke-linecap="round" stroke-opacity=".14118" stroke-width="171.61" style="mix-blend-mode:normal;paint-order:stroke markers fill"/>
+</svg>

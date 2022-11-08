@@ -1,0 +1,24 @@
+<svg version="1.1" viewBox="0 0 400 160.56" xmlns="http://www.w3.org/2000/svg" id="fog">
+  <defs>
+    <filter id="filter16782" x="-.10298" y="-.36389" width="1.2059" height="1.7278" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" result="result8" stdDeviation="15" />
+      <feTurbulence baseFrequency="0.02" numOctaves="5" result="result7" seed="28" type="fractalNoise" />
+      <feComposite in="result7" in2="result8" result="result6" />
+      <feColorMatrix result="result9" type="luminanceToAlpha" />
+      <feDisplacementMap in="result7" in2="result9" result="result4" scale="45" />
+      <feComposite in="result8" in2="result4" operator="in" result="result2" />
+      <feComposite in="result2" in2="result9" operator="in" result="fbSourceGraphic" />
+      <feComposite in="fbSourceGraphic" in2="fbSourceGraphic" k1="0.5" k2="1" operator="arithmetic" result="result91" />
+      <feBlend in="fbSourceGraphic" in2="result91" mode="multiply" />
+    </filter>
+  </defs>
+  <g>
+    <path d="m 94.155 36.787
+             h 161.07
+             l 119.93 31.776 
+               12.908 57.59
+               -132.84 9.9296
+               -168.02-2.9789
+               -50.641-43.69z" fill="#0ff" fill-opacity=".35" filter="url(#filter16782)"/>
+  </g>
+</svg>
