@@ -15,31 +15,19 @@ const Circle = () => {
   useEffect(() => {
     let svgQ = gsap.utils.selector(c1Ref.current);
     
-    // gsap.to(c1Ref.current, {duration: 2, delay:3 , x: -300, ease: "rough({strength: 3, points: 50, template: strong.inOut, taper: both, randomize: false})" });
     let t1 = gsap.to(svgQ("svg"), {
       rotation: "random(0,360)",
-      // x: -100,
       ease: "rough({ template: none.out, strength: 0.2, points: 20, taper: none, randomize: true, clamp: true})",
-      // ease: "rough",
-      // ease: "random([expo.inOut, elastic.inOut(1, 0.3)])",
-      // ease: "expo.inOut",
-      // ease: "elastic.inOut(1, 0.3)",
       repeat: -1,
       repeatRefresh: true,
       duration: 'random(10,15)',
-      // duration: 3,
-      // repeatDelay: 0.5,
-      // yoyo: true,
     });
-    // console.log(t1);
 
     const multiCircleEvent = (event) => {
       svgQ(".circle").forEach((el) => {
-        // console.log(el.dataset.optionsP);
         trackingMouse(el,{p:el.dataset.optionsP})(event);
       });
     };
-    // multiCircleEvent();
     window.addEventListener("mousemove", multiCircleEvent);
     return () => {
       t1.kill();

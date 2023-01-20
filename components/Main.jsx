@@ -1,7 +1,4 @@
-import React, { useLayoutEffect, useEffect, useRef } from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 let heroEl = {};
@@ -19,8 +16,6 @@ function Main() {
     heroEl.container = heroRef.current;
     tailEl = tailElRef.current;
     
-
-
     let t1;
     const updateScrollMain = () => {
       ScrollTrigger.getById("triggerMain1")?.kill();
@@ -40,8 +35,7 @@ function Main() {
             // markers: true,
 
           },
-          // we have to increase scrolling height of this section same as the scrolling element width
-          // ease: "power1.out,",
+
           ease: "none",
           y: heroEl.container.offsetHeight,
           // opacity: 1,

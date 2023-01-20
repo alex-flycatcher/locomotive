@@ -5,10 +5,8 @@ import gsap from "gsap";
 import trackingMouse from "../utils/trackingMouse"
 import ScrollBar from "../../public/assets/scrollbar.svg"
 import ScrollBarIndicator from "../../public/assets/scrollIndicator.svg"
-// import MobileNav from "./MobileNav";
 import {scrollInstance} from "../ScrollTriggerProxy"
 const NavbarBR = () => {
-  // let scrollPercentage = 0;
   const [scrollPercentage, setScrollPercentage] = useState('000%');
   const NavBrRef = useRef(null);
   
@@ -32,10 +30,8 @@ const NavbarBR = () => {
       
     setTimeout(() => {
 
-      // scrollInstance.scroll.instance.scroll.x
       scrollInstance.on('scroll',updateScrollPercentage)
     }, 1000);
-    // window.addEventListener("wheel", ()=>{console.log(scrollInstance.scroll.instance.scroll)});
     const trackingMouseEvent = trackingMouse(NavBrEl);
     window.addEventListener("mousemove", trackingMouseEvent);
     return () => {

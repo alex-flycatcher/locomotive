@@ -1,5 +1,4 @@
 import React from 'react'
-// import {Link as LinkScroll} from "react-scroll";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 
 
@@ -7,10 +6,7 @@ const MobileNavbarLink = ({to,label,offset=0}) => {
   const { scroll } = useLocomotiveScroll();
 
   const handleScroll = (id) => {
-    console.log(id);
     let elem = document.querySelector(id);
-    console.log(scroll);
-    // setClick(!click);
     scroll.scrollTo(elem, {
       offset: "-100",
       duration: "2000",

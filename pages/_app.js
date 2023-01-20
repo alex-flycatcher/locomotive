@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
       </LocomotiveScrollProvider>
       <NavbarTR />
       <NavbarBR />
-      <Background />
+      {/* <Background /> */}
     </>
   );
 }

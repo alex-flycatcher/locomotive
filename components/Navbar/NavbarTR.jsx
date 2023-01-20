@@ -15,19 +15,10 @@ import trackingMouse from "../utils/trackingMouse"
 
 const NavbarTR = () => {
   const NavTrRef = useRef(null);
-  useEffect(() => {
-    // let NavTrEl = NavTrRef.current;
-    // const trackingMouseEvent = trackingMouse(NavTrEl);
-    // window.addEventListener("mousemove", trackingMouseEvent);
-    // return () => {
-    //   window.removeEventListener("mousemove", trackingMouseEvent);
-    // };
-  }, []);
 
   const triggerActiveClass = () => {};
   return (
     <div className="z-50 absolute top-0 right-0"  ref={NavTrRef}>
-      {/* style={{transform: " rotateY(15deg) rotateX(15deg)"}} */}
         <div className="mt-5 mr-5 drop-shadow-[0_0_3px_rgba(255,255,255)] ">
           <Circle />
         </div>

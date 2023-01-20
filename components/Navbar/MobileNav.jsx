@@ -3,15 +3,6 @@ import MobileNavbarLink from "./MobileNavbarLink";
 import { AiOutlineMail, AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const MobileNav = ({ nav, handleNav }) => {
-  // const [nav, setNav] = useState(false);
-  // const [navBg, setNavBg] = useState(false);
-  // const [shadow, setShadow] = useState(false);
-  // const handleNav = () => {
-  //   setNav(!nav);
-  //   setTimeout(() => {
-  //     setNavBg(!navBg);
-  //   }, 300);
-  // };
   return (
     <div
       className={`md:hidden fixed right-0 pr-5 pt-16 ease-in duration-500 ${
@@ -32,25 +23,6 @@ const MobileNav = ({ nav, handleNav }) => {
         >
           <AiOutlineClose />
         </div>
-        {/* <div className=" pt-40">
-        <p className=" uppercase tracking-widest text-[#5651e5]">
-          Let&#39;s connect{" "}
-        </p>
-        <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-          <div className=" rounded-full shadow-lg shadow-gray-400 p-3  cursor-pointer hover:scale-105 ease-in duration-300">
-            <FaLinkedinIn />
-          </div>
-          <div className=" rounded-full shadow-lg shadow-gray-400 p-3  cursor-pointer hover:scale-105 ease-in duration-300">
-            <FaGithub />
-          </div>
-          <div className=" rounded-full shadow-lg shadow-gray-400 p-3  cursor-pointer hover:scale-105 ease-in duration-300">
-            <AiOutlineMail />
-          </div>
-          <div className=" rounded-full shadow-lg shadow-gray-400 p-3  cursor-pointer hover:scale-105 ease-in duration-300">
-            <BsFillPersonLinesFill />
-          </div>
-        </div>
-      </div> */}
       </div>
     </div>
   );

@@ -28,43 +28,43 @@ const trackingMouse = (element, options = {}) => {
   const xSetter = gsap.quickSetter(element, "x", "px");
   const ySetter = gsap.quickSetter(element, "y", "px");
 
-  let elementTop = element.getBoundingClientRect().top;
-  let elementLeft = element.getBoundingClientRect().left;
-  let rotateRange = options.rRange ? options.rRange : 30;
-  let rotateRyMin = options.ryMin ? options.ryMin : -rotateRange;
-  let rotateRyMax = options.ryMax ? options.ryMax : rotateRange;
-  let rotateRxMin = options.rxMin ? options.rxMin : -rotateRange;
-  let rotateRxMax = options.rxMax ? options.rxMax : rotateRange;
+  const elementTop = element.getBoundingClientRect().top;
+  const elementLeft = element.getBoundingClientRect().left;
+  const rotateRange = options.rRange ? options.rRange : 30;
+  const rotateRyMin = options.ryMin ? options.ryMin : -rotateRange;
+  const rotateRyMax = options.ryMax ? options.ryMax : rotateRange;
+  const rotateRxMin = options.rxMin ? options.rxMin : -rotateRange;
+  const rotateRxMax = options.rxMax ? options.rxMax : rotateRange;
 
-  let p = options.p ? options.p : 15
-  let positionYMin = options.yMin ? options.yMin : -p;
-  let positionYMax = options.yMax ? options.yMax : p;
-  let positionXMin = options.xMin ? options.xMin : -p;
-  let positionXMax = options.xMax ? options.xMax : p;
+  const p = options.p ? options.p : 15
+  const positionYMin = options.yMin ? options.yMin : -p;
+  const positionYMax = options.yMax ? options.yMax : p;
+  const positionXMin = options.xMin ? options.xMin : -p;
+  const positionXMax = options.xMax ? options.xMax : p;
 
   return (event) => {
-    let elementRy = gsap.utils.mapRange(
+    const elementRy = gsap.utils.mapRange(
       -window.innerHeight,
       window.innerHeight,
       rotateRyMin,
       rotateRyMax,
       event.clientY - elementTop
     );
-    let elementRx = gsap.utils.mapRange(
+    const elementRx = gsap.utils.mapRange(
       -window.innerWidth,
       window.innerWidth,
       rotateRxMin,
       rotateRxMax,
       event.clientX - elementLeft
     );
-    let elementY = gsap.utils.mapRange(
+    const elementY = gsap.utils.mapRange(
       -window.innerHeight,
       window.innerHeight,
       positionYMin,
       positionYMax,
       event.clientY - elementTop
     );
-    let elementX = gsap.utils.mapRange(
+    const elementX = gsap.utils.mapRange(
       -window.innerWidth,
       window.innerWidth,
       positionXMin,

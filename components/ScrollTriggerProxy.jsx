@@ -47,23 +47,6 @@ const ScrollTriggerProxy = () => {
       scroller: element,
     });
 
-    // const scrollSnap = () => {
-    //   console.log(scroll.scroll.instance);
-    //   // console.log(ScrollTrigger.direction);
-    //   if (scroll.scroll.instance.direction == 'right') {
-    //     let position = Math.ceil(scroll.scroll.instance.scroll.x/window.innerWidth)*window.innerWidth
-    //     // console.log(scroll.scroll.instance.scroll.x);
-    //     // console.log(position);
-    //     scroll.scrollTo(position);
-    //   }
-    //   if (scroll.scroll.instance.direction == 'left') {
-    //     let position = Math.floor(scroll.scroll.instance.scroll.x/window.innerWidth)*window.innerWidth
-    //     // console.log(scroll.scroll.instance.scroll.x);
-    //     // console.log(position);
-    //     scroll.scrollTo(position);
-    //   }
-    // }
-    // ScrollTrigger.addEventListener("scrollEnd",scrollSnap);
     const scrollSnap = (event) => {
       // console.log(event);
       if (event.deltaY > 0) {
@@ -86,14 +69,6 @@ const ScrollTriggerProxy = () => {
     
     scrollInstance = scroll;
     return () => {
-      // ScrollTrigger.addEventListener("refresh", () => scroll?.update());
-      // ScrollTrigger.refresh();
-      // let triggers = ScrollTrigger.getAll();
-      // triggers.forEach((trigger) => {
-      //   trigger.kill();
-      // });
-      // scroll.off("scroll", ScrollTrigger.update);
-      // ScrollTrigger.removeEventListener("scrollEnd",scrollSnap);
       window.removeEventListener("wheel", scrollSnap);
     };
   }, [scroll]);
