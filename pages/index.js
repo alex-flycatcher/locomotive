@@ -25,7 +25,7 @@ export default function Home() {
         <Starship />
         <Skills />
         {/* <Projects /> */}
-        <Contact />
+        {/* <Contact /> */}
         {/* <SidebarLeft /> */}
         {/* <SidebarRight /> */}
         

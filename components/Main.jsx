@@ -114,12 +114,12 @@ function Main() {
 
         <h1 className="  text-primary-light">A Full Stack Developer</h1>
         <div className=" text-gray-200">
-          who can build the&nbsp;
+        Scroll down to launch the &nbsp;
           <span ref={ssRef} id="heross" className="inline-block relative ">
             STARSHIP🚀
             <span ref={tailElRef} className="absolute -z-10 block w-0 h-[6px] bg-orange-400 border border-black rotate-[135deg] origin-top-left rounded-r-lg left-[92px] top-[18px] "></span>
           </span>
-          &nbsp;website you just need.
+          &nbsp;to the next page.
         </div>
         <div className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"></div>
 
